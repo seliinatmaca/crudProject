@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  background-image: url("1.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  padding: 50px;
+}
+
+form {
+  width: 450px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.title {
+  font-size: 24px;
+}
+form input {
+  height: 32px;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid white;
+  background: transparent;
+  color: rgb(7, 7, 7);
+  font-size: 20px;
+  padding: 10px;
+  padding-left: 0;
+}
+
+form button {
+  height: 32px;
+  width: 500px;
+  border-radius: 100px;
+  cursor: pointer;
+  background-color: rgb(230, 238, 3);
+  outline: none;
+  border: none;
+  color: rgb(97, 27, 145);
+  font-weight: bold;
+  font-size: 16px;
+}
+button {
+  padding: 5px 10px;
+  border-radius: 100px;
+  background-color: rgb(97, 27, 145);
+  outline: none;
+  border: none;
+  color: white;
+}
